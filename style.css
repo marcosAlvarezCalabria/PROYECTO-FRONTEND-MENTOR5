@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+     --Orange:hsl(25, 97%, 53%);
+     --White: hsl(0, 0%, 100%);
+     --LightGrey:hsl(217, 12%, 63%);
+     --MediumGrey: hsl(216, 12%, 54%);
+     --DarkBlue: hsl(213, 19%, 18%);
+     --VeryDarkBlue: hsl(216, 12%, 8%);
+}
+body{
+    background-color:black;
+    font-family: 'Overpass', sans-serif;
+    Font-size : 15px;
+    padding: 150px 21px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.container{
+    width: 330px;
+    height: 365px;
+    background-color:var(--VeryDarkBlue) ;
+    border: 1px solid var(--VeryDarkBlue);
+    border-radius: 14px;
+    padding: 22px 30px 22px 22px;
+    
+}
+.star{
+    background-color: var(--DarkBlue);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.title{
+    color:var(--White);
+    margin: 22px auto;
+}
+.parrafo{
+    color:var(--LightGrey) ;
+    width: 289px;
+    line-height: 1.6em;
+    font-size: 14px;
+    margin-top: 25px;
+}
+.bolwsNumbers{
+    width: 280px;
+    height:44px ;
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 0px;
+    margin-top: 25px;
+    
+
+}
+.bolws{
+    background-color: var(--DarkBlue);
+    width: 42px;
+    height: 42PX;
+    border-radius: 50%;
+    color:var(--MediumGrey) ;
+    font-size: 14px;
+    margin-right: 15px;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+   
+}
+.bolws:hover{
+    cursor: pointer;
+}
+.button{
+    width: 281px;
+    height: 41px;
+    border-radius: 20px;
+    margin: 25px auto ;
+    border: 1px transparent;
+    background-color: var(--Orange);
+    text-transform: uppercase;
+    color: var(--White);
+    letter-spacing:  0.5em ;
+    
+    
+
+}
+.button:hover{
+    cursor: pointer;
+}
+footer{
+
+    margin-top: 20px;
+    color: var(--MediumGrey);
+}
+/*---------------------------800px-----------------------------*/
+@media only screen and (min-width: 800px){
+    .container{
+        width: 350px;
+        height: 390px;
+
+    }
+    .star{
+        width: 49px;
+        height: 51px;
+
+    }
+    .title{
+        font-size: 19px;
+    }
+    .parrafo{
+        width: 323px;
+    }
+    .bolwsNumbers{
+      
+        width: 330px;
+    }
+    .bolws{
+        width: 52px;
+        height: 52px;
+        margin-right: 25px;
+    }
+    .button{
+        width: 310px;
+        margin: 25px auto;
+    }
+}
+    /*---------------------------1440px-----------------------------*/
+@media only screen and (min-width: 1440px){
+
+    .container{
+        width: 412px;
+        height: 412px;
+
+    }
+    .star{
+        width: 49px;
+        height: 51px;
+
+    }
+    .title{
+        font-size: 25px;
+    }
+    .parrafo{
+        width: 340px;
+        font-size: 16px;
+    }
+    .bolwsNumbers{
+      
+        width: 390px;
+    }
+    .bolws{
+        width: 52px;
+        height: 52px;
+        margin-right: 25px;
+    }
+    .button{
+        width: 365px;
+        margin: 25px auto;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
